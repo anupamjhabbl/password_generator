@@ -114,7 +114,13 @@ let generate = () => {
     input_box.value = k;
 }
 
-let copy = () => {
+let copy = (e) => {
+    e.target.style.width='45px';
+    e.target.style.height='auto';
+    setTimeout(()=>{
+        e.target.style.width='40px';
+        e.target.style.height='auto';
+    },500);
     let k = document.getElementById('main_input').value;
     if (k==""){
         alert('First Generate a password');

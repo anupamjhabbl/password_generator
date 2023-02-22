@@ -22,6 +22,7 @@
     margin-top:30px;
     margin-bottom:30px;
     display:flex;
+    padding-right:0px;
 }
 
 #main_input{
@@ -35,14 +36,17 @@
     font-size: 0.85em;
 }
 
-#copy_button>img{
+#copy_button_upper{
+    width:10%;
+    padding-bottom: 0px;
+}
+
+#copy_button{
+    display:block;
     width:40px;
     height:auto;
     margin:auto;
     margin-top:0px;
-    position:relative;
-    bottom:8px;
-    left:6px;
 }
 
 #select{
